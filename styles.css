@@ -1,0 +1,56 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+
+.logo {
+    height: 25px;
+}
+
+.nav-link {
+    transition: 100ms;
+}
+
+.features {
+    width: 200px;
+    .nav-link:hover {
+        transform: translateY(-2px);
+        transition: 100ms;
+        text-shadow: 2px 2px 3px;
+    }
+}
+
+.carousel-item img {
+    height: 90vh;
+    object-fit: cover;
+}
+
+.form-container {
+    height: 900px;
+    background: linear-gradient(#222 90%, white);
+    & .form {
+        width: 350px;
+        height: 200px;
+    }
+}
+
+
+
+.card-container {
+    padding: 50px 0;
+}
+
+.card {
+    object-fit: cover;
+    margin: 15px;
+}
+
+.footer {
+    height: 100px;
+    /* background-color: rgb(41, 85, 215); */
+    margin: 10px;
+    border-radius: 10% 0;
+
+}
